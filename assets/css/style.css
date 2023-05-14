@@ -1,11 +1,13 @@
-/* * {
+* {
     border: 1px dotted red;
-} */
+}
 
 :root {
     --bgcolor: lightgray;
     --bordercolor:darkgray;
+    --h2: 200%;
 }
+/* header styling */
 
 header {
    display: flex;
@@ -14,8 +16,6 @@ header {
    justify-content: space-between;
    background-color: var(--bgcolor);
    min-height: 125px;
-  
-   
 }
 
 header nav {
@@ -35,6 +35,43 @@ header h1 {
     font-size: 350%;
     padding: .5% 3%;
     background-color: pink;
+}
 
+/* HERO IMAGE */
+
+.hero {
+    background-image: url(./images/placeholder-1440x225.png);
+    min-height: 225px;
+}
+
+.hero h2 {
+    position: relative;
+    left: 66%;
+    top: 150px;
+    font-size: var(--h2);
+    background-color: pink;
+    display: inline-block;
+    padding: .5%;
+}
+
+/* Main body section styling */
+
+.section-title {
+    font-size: var(--h2);
+    border-right: solid black 5px;
+    margin: 3%;
+    padding: 3%;
+    text-align: right;
+    position: relative;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.section p {
+    margin: 3%;
 }
 
