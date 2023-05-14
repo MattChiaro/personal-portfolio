@@ -1,0 +1,40 @@
+/* * {
+    border: 1px dotted red;
+} */
+
+:root {
+    --bgcolor: lightgray;
+    --bordercolor:darkgray;
+}
+
+header {
+   display: flex;
+   align-items: center; 
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color: var(--bgcolor);
+   min-height: 125px;
+  
+   
+}
+
+header nav {
+    padding:10px;
+    margin-right: 3%;
+}
+
+header nav a {
+    padding: 5px;
+    border-bottom: 3px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 125%;
+}
+
+header h1 {
+    font-size: 350%;
+    padding: .5% 3%;
+    background-color: pink;
+
+}
+
