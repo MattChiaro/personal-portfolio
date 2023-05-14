@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px dotted red;
-}
+} */
 
 :root {
     --bgcolor: lightgray;
@@ -62,12 +62,18 @@ header h1 {
 
 /* Main body section styling */
 
+.section {
+    display: inline-block;
+    min-height: 25%;
+    min-width: 100%;
+    margin: 2%;
+}
 
 .section-title {
     font-size: var(--h2);
     /* border-right: solid black 5px; */
     /* margin: 3%; */
-    padding: 3%;
+    margin-right: 10px;
     text-align: right;
     width: 12%;
     float: left;
@@ -81,9 +87,8 @@ header h1 {
 
 }
 
-.section p {
+.section-content p {
     margin: 3%;
-    float: right;
 }
 
 /* footer styling */
