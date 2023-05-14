@@ -65,7 +65,7 @@ header h1 {
 .section {
     display: inline-block;
     min-height: 25%;
-    min-width: 100%;
+    width: 100%;
     margin: 2%;
 }
 
@@ -105,4 +105,11 @@ footer {
 
 .links li {
     margin: 5%;
+    font-size: 125%;
+    border-bottom: 3px black solid;
+    padding: 5px;
+}
+
+.links a {
+    text-decoration: none;
 }
