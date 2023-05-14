@@ -116,13 +116,15 @@ footer {
 
 .links li {
     font-size: 125%;
-    border-bottom: 3px black solid;
+    /* border-bottom: 3px black solid; */
     padding: 5px;
     display: flex;
     align-items: center;
     min-height: 150px;
+    margin: 3%;
 }
 
 .links a {
     text-decoration: none;
+    border-bottom: 3px solid black;
 }
