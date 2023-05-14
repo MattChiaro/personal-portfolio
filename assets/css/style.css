@@ -70,14 +70,15 @@ header h1 {
 }
 
 .section-title {
-    font-size: var(--h2);
+    font-size: 250%;
     /* border-right: solid black 5px; */
     /* margin: 3%; */
-    margin-right: 10px;
-    margin-top: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
     text-align: right;
     width: 12%;
     float: left;
+    line-height: 125%;
 
 }
 
