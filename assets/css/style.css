@@ -43,7 +43,7 @@ header h1 {
 /* HERO IMAGE */
 
 .hero {
-    background-image: url(./images/placeholder-1440x225.png);
+    background-image: url(/assets/images/placeholder-1440x225.png);
     min-height: 225px;
 }
 
@@ -133,12 +133,14 @@ header h1 {
 /* individual projects */
 
 #pre-work {
-    background-image: url(./images/prework-study-guide.png);
+    background-image: url(/assets/images/prework-study-guide.png);
     background-size: cover;
 }
 
+
+
 #code-refactor {
-    background-image: url(./images/code-refactor.png);
+    background-image: url(assets/images/code-refactor.png);
     background-size: cover;
 }
 
