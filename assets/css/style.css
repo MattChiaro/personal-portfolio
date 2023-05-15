@@ -178,6 +178,12 @@ from https://cssgradient.io/blog/css-gradient-text/  */
     background-size: cover;
 }
 
+#cc-ss {
+    background-image: url(../images/cc-ss.png);
+    background-size: cover;
+}
+
+
 /* footer styling */
 
 .links {
