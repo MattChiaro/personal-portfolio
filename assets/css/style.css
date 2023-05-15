@@ -2,10 +2,20 @@
     border: 1px dotted red;
 } */
 
+/* universal styles */
+
 :root {
     --bgcolor: #9969c7;
     --bordercolor:darkgray;
     --h2: 200%;
+    --font: 'Kanit', sans-serif;
+    --h1lbs: 500; 
+    --h2lbs: 200;
+    --plbs: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: var(--font);
 }
 
 /* header styling */
@@ -42,11 +52,13 @@ header:hover nav {
 
 header h1 {
     font-size: 350%;
+    font-weight: var(--h1lbs);
     padding: .5% 3%;
     /* background-image:linear-gradient(#b589d6,#552586); */
     border-radius: 0 10px 10px 0;
     border: inset black 3px;
     border-left: none;
+
 }
 
 /* HERO IMAGE */
@@ -80,6 +92,7 @@ header h1 {
 
 .section-title {
     font-size: 250%;
+    font-weight: var(--h2lbs);
     margin-right: 20px;
     margin-top: 25px;
     text-align: right;
@@ -97,6 +110,7 @@ header h1 {
 
 .section-content p {
     margin: 3%;
+    font-weight: var(--plbs);
 }
 
 .projectlist {
