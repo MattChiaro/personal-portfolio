@@ -25,7 +25,6 @@ header {
    align-items: center; 
    flex-wrap: wrap;
    justify-content: space-between;
-   /* background-image: linear-gradient(90deg,#b589d6,#552586); */
    min-height: 125px;
 }
 
@@ -43,10 +42,10 @@ header nav a {
     color: black;
 }
 
-/* scale the nav bar when mouse is on the header */
 
-header:hover nav {
-    transform: scale(1.1);
+
+header:hover nav { /* scale the nav bar when mouse is on the header */
+    transform: scale(1.1); 
 }
 
 
@@ -54,14 +53,14 @@ header h1 {
     font-size: 350%;
     font-weight: var(--h1lbs);
     padding: .5% 3%;
-    /* background-image:linear-gradient(#b589d6,#552586); */
     border-radius: 0 10px 10px 0;
     border: inset black 3px;
     border-left: none;
 
-    /* 
-     */
-    background: -webkit-linear-gradient(180deg,#b589d6,#552586);
+/* text gradient kindly borrowed 
+from https://cssgradient.io/blog/css-gradient-text/  */
+
+    background: -webkit-linear-gradient(180deg,black, gray);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -74,7 +73,7 @@ header h1 {
     min-height: 225px;
 }
 
-/* "Full Stack Web Developer sub-heading */
+/* "Full Stack Web Developer" sub-heading */
 
 .hero h2 {
     position: relative;
@@ -133,7 +132,7 @@ header h1 {
     border: 3px solid black;
     border-radius: 5px;
     float: left;
-    /* filter: blur(2px) */
+
 }
 
 .project:hover {
