@@ -3,11 +3,10 @@
 } */
 
 :root {
-    --bgcolor: lightgray;
+    --bgcolor: #9969c7;
     --bordercolor:darkgray;
     --h2: 200%;
 }
-
 
 /* header styling */
 
@@ -34,11 +33,20 @@ header nav a {
     color: black;
 }
 
+/* scale the nav bar when mouse is on the header */
+
+header:hover nav {
+    transform: scale(1.1);
+}
+
+
 header h1 {
     font-size: 350%;
     padding: .5% 3%;
     background-image:linear-gradient(#b589d6,#552586);
     border-radius: 0 10px 10px 0;
+    border: inset black 3px;
+    border-left: none;
 }
 
 /* HERO IMAGE */
@@ -56,7 +64,7 @@ header h1 {
     top: 150px;
     display: inline-block;
     font-size: var(--h2);
-    background-color: pink;
+    background-color: var(--bgcolor);
     padding: .5%;
     border-radius: 10px;
 }
@@ -105,7 +113,7 @@ header h1 {
     border: 3px solid black;
     border-radius: 5px;
     float: left;
-    filter: blur(2px)
+    /* filter: blur(2px) */
 }
 
 .project:hover {
@@ -129,8 +137,9 @@ header h1 {
     border-radius: 0 10px 10px 0;
     display: inline-block;
     padding: 2% 2% 2% 5%;
-    background-color: pink;
+    background-color: var(--bgcolor);
     z-index: 1;
+    color: black;
 }
 
 
@@ -170,4 +179,54 @@ header h1 {
     text-decoration: none;
     border-bottom: 3px solid black;
     padding: 5px;
+    color: black;
+}
+
+/* links bounce upon hovering */
+
+.links a:hover {
+    animation: bounce 1s infinite;
+}
+}
+
+/* CSS3 Bounce Animation */
+/* Kindly borrowed from Neelam Khan on Stack Overflow.
+
+https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hover */
+
+@-webkit-keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@-moz-keyframes bounce {
+    0%, 
+    100% {
+       -moz-transform: translateY(0);
+    }
+    50% {
+       -moz-transform: translateY(-10px);
+    }
+}
+@-o-keyframes bounce {
+    0%,
+    100% {
+       -o-transform: translateY(0);
+    }
+    50% {
+       -o-transform: translateY(-10px);
+    }
+}
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
