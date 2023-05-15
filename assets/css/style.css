@@ -261,6 +261,56 @@ https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hov
     }
 }
 
-@media  screen and (max-width: 992px){
-    
+@media screen and (max-width: 992px){
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    header h1 {
+        border: inset black 3px;
+        border-radius: 10px;
+    }
+
+    header nav {
+        justify-content: space-between;
+        margin: 0%;
+    }
+
+    .hero {
+       display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-content {
+        border: 5px inset black;
+        border-radius: 10px;
+        
+    }
+
+    .section-title {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+
+    .links {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .links li {
+        min-height: 0;
+        padding: 0;
+        margin: 2px;
 }
