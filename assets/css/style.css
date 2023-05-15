@@ -59,6 +59,12 @@ header h1 {
     border: inset black 3px;
     border-left: none;
 
+    /* 
+     */
+    background: -webkit-linear-gradient(180deg,#b589d6,#552586);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 /* HERO IMAGE */
