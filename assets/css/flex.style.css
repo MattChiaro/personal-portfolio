@@ -1,0 +1,227 @@
+/* * {
+    border: 1px dotted red;
+} */
+
+/* universal styles */
+
+:root {
+    --bgcolor: #9969c7;
+    --bordercolor:darkgray;
+    --h2: 200%;
+    --font: 'Kanit', sans-serif;
+    --h1lbs: 500; 
+    --h2lbs: 200;
+    --plbs: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: var(--font);
+}
+
+/* header styling */
+
+header {
+   display: flex;
+   align-items: center; 
+   flex-wrap: wrap;
+   justify-content: space-between;
+   /* background-image: linear-gradient(90deg,#b589d6,#552586); */
+   min-height: 125px;
+}
+
+header nav {
+    padding:10px;
+    margin-right: 3%;
+}
+
+header nav a {
+    padding: 5px;
+    border-bottom: 3px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 125%;
+    color: black;
+}
+
+/* scale the nav bar when mouse is on the header */
+
+header:hover nav {
+    transform: scale(1.1);
+}
+
+
+header h1 {
+    font-size: 350%;
+    font-weight: var(--h1lbs);
+    padding: .5% 3%;
+    /* background-image:linear-gradient(#b589d6,#552586); */
+    border-radius: 0 10px 10px 0;
+    border: inset black 3px;
+    border-left: none;
+
+}
+
+/* HERO IMAGE */
+
+.hero {
+    background-image: url(../images/placeholder-1440x225.png);
+    min-height: 225px;
+}
+
+/* "Full Stack Web Developer sub-heading */
+
+.hero h2 {
+    position: relative;
+    left: 70%;
+    top: 150px;
+    display: inline-block;
+    font-size: var(--h2);
+    background-color: var(--bgcolor);
+    padding: .5%;
+    border-radius: 10px;
+}
+
+/* Main body section styling */
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+
+}
+
+.section-title {
+    flex: 1 0 20%;
+
+}
+
+.section-content {
+    flex: 1 0 75%;
+    border-left: 5px solid black;
+
+}
+
+.section-content p {
+    margin: 3%;
+    font-weight: var(--plbs);
+}
+
+.projectlist {
+
+}
+
+.project {
+
+}
+
+.project:hover {
+    filter: none;
+    transform: scale(1.05);
+}
+
+/* Targets the first project listed and makes it larger */
+
+.project:first-child {
+
+}
+
+.project h3 {
+    position: relative;
+    top: 50%;
+    margin: 20px 20px 20px 0;
+    font-size: 200%;
+    border-radius: 0 10px 10px 0;
+    display: inline-block;
+    padding: 2% 2% 2% 5%;
+    background-color: var(--bgcolor);
+    z-index: 1;
+    color: black;
+}
+
+
+
+/* individual projects */
+
+#pre-work {
+    background-image: url(../images/prework-study-guide.png);
+    background-size: cover;
+}
+
+
+
+#code-refactor {
+    background-image: url(../images/code-refactor.png);
+    background-size: cover;
+}
+
+/* footer styling */
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links li {
+    font-size: 125%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    margin: 3%;
+}
+
+.links a {
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    color: black;
+}
+
+/* links bounce upon hovering */
+
+.links a:hover {
+    animation: bounce 1s infinite;
+}
+
+/* CSS3 Bounce Animation */
+/* Kindly borrowed from Neelam Khan on Stack Overflow.
+
+https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hover */
+
+@-webkit-keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@-moz-keyframes bounce {
+    0%, 
+    100% {
+       -moz-transform: translateY(0);
+    }
+    50% {
+       -moz-transform: translateY(-10px);
+    }
+}
+@-o-keyframes bounce {
+    0%,
+    100% {
+       -o-transform: translateY(0);
+    }
+    50% {
+       -o-transform: translateY(-10px);
+    }
+}
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
