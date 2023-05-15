@@ -33,20 +33,29 @@ header nav {
     margin-right: 3%;
 }
 
-header nav a {
+header nav ul.links {
+    margin-right: 35%;
+}
+
+header nav ul li a {
     padding: 5px;
     border-bottom: 3px solid black;
     margin: 5px;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 100%;
     color: black;
+    width: 100%;
 }
 
 
 
-header:hover nav { /* scale the nav bar when mouse is on the header */
+
+
+/* scale the nav bar when mouse is on the header */
+/* 
+header:hover nav { 
     transform: scale(1.1); 
-}
+} */
 
 
 header h1 {
@@ -313,4 +322,17 @@ https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hov
         min-height: 0;
         padding: 0;
         margin: 2px;
+    }
 }
+
+/* @media screen and (max-width: 625px){
+    
+    nav {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+}
+
+     */
