@@ -103,8 +103,7 @@ header h1 {
     height: 200px;
     border: 3px solid black;
     border-radius: 5px;
-    float: left;
-    
+    float: left;  
 }
 
 /* Targets the first project listed and makes it larger */
@@ -118,14 +117,29 @@ header h1 {
 .project h3 {
     position: relative;
     top: 50%;
-    right: 1px;
     margin: 20px 20px 20px 0;
     font-size: 200%;
-    border: 2px inset black;
-    /* border-bottom: none; */
+    border-radius: 0 10px 10px 0;
     display: inline-block;
     padding: 2% 2% 2% 5%;
-    
+    background-color: pink;
+}
+
+.project:hover {
+
+}
+
+
+/* individual projects */
+
+#pre-work {
+    background-image: url(./images/prework-study-guide.png);
+    background-size: cover;
+}
+
+#code-refactor {
+    background-image: url(./images/code-refactor.png);
+    background-size: cover;
 }
 
 /* footer styling */
