@@ -183,6 +183,11 @@ from https://cssgradient.io/blog/css-gradient-text/  */
     background-size: cover;
 }
 
+#cc-html {
+    background-image: url(../images/html-cheat-sheet.png);
+    background-size: cover;
+}
+
 
 /* footer styling */
 
