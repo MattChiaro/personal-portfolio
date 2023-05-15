@@ -331,14 +331,18 @@ https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hov
     }
 }
 
-/* @media screen and (max-width: 625px){
+@media screen and (max-width: 625px){
     
     nav {
         justify-content: center;
         flex-direction: column;
     }
 
+    .project h3 {
+        display: none;
+    }
+
 
 }
 
-     */
+    
