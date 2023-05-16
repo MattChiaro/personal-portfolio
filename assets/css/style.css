@@ -130,6 +130,7 @@ from https://cssgradient.io/blog/css-gradient-text/  */
 .section-content p {
     margin: 3%;
     font-weight: var(--plbs);
+    line-height: 1.2;
 }
 
 /* "work" section specific styling */
