@@ -18,15 +18,15 @@ Project is live at https://mattchiaro.github.io/personal-portfolio/
 
 DESKTOP VERSION:
 
-![desktop deployed](./assets/images/deployed-desktop.png)
+![desktop deployed](./assets/images/desktop-gif.gif)
 
 992PX AND UNDER:
 
-![992px deployed](./assets/images/deployed-992px.png)
+![992px deployed](./assets/images/992px-gif.gif)
 
 625PX AND UNDER:
 
-![665px deployed](./assets/images/deployed-665px.png)
+![665px deployed](./assets/images/665px-gif.gif)
 
 
 ## Credits
