@@ -339,7 +339,10 @@ https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hov
     }
 
     .project h3 {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 125%;
     }
 
 
