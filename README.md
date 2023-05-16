@@ -31,10 +31,10 @@ DESKTOP VERSION:
 
 ## Credits
 
-CSS3 Bounce Animation (for the 'Contact Me' links) kindly borrowed from Neelam Khan on Stack Overflow:
+CSS3 Bounce Animation (style.css lines 242-250) kindly borrowed from Neelam Khan on Stack Overflow:
 
 https://stackoverflow.com/questions/40628410/trying-to-make-a-link-bounce-on-hover
 
-Text gradient on h1 heading built using a tutorial from cssgradient.io:
+Text gradient on h1 heading (style.css lines 77-79) built using a tutorial from cssgradient.io:
 
 https://cssgradient.io/blog/css-gradient-text/ 
