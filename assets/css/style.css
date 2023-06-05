@@ -203,6 +203,12 @@ from https://cssgradient.io/blog/css-gradient-text/  */
     background-size: cover;
 }
 
+#whats-that-noise {
+    background-image: url(../images/whats-that-noise.png);
+    background-size: cover;
+
+}
+
 
 /* footer styling */
 
