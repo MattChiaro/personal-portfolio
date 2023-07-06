@@ -186,8 +186,6 @@ from https://cssgradient.io/blog/css-gradient-text/  */
     background-size: cover;
 }
 
-
-
 #code-refactor {
     background-image: url(../images/code-refactor.png);
     background-size: cover;
@@ -206,8 +204,13 @@ from https://cssgradient.io/blog/css-gradient-text/  */
 #whats-that-noise {
     background-image: url(../images/whats-that-noise.png);
     background-size: cover;
-
 }
+
+#cache-me-outside {
+    background-image: url(../images/cache-me-outside-homepage.gif);
+    background-size: cover;
+}
+
 
 
 /* footer styling */
